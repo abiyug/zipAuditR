@@ -1,0 +1,31 @@
+# RStudio / R files
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Build artifacts
+*.tar.gz
+*.Rcheck/
+man/*.Rd
+NAMESPACE
+
+# Temporary / cache files
+.Renviron
+.Rprofile
+.cache/
+cache/
+revdep/
+
+# macOS junk
+.DS_Store
+
+# Personal / sensitive
+.httr-oauth
+*.key
+*.pem
+
+# Keep the logo and README
+!man/figures/logo.*
+!README.*
