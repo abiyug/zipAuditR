@@ -56,7 +56,7 @@ You can install the development version like this:
 devtools::install(upgrade = "never")
 
 # Or later — once published on GitHub
-# remotes::install_github("yourusername/zipAuditR")
+# remotes::install_github("abiyug/zipAuditR")
 ```
 
 ## Quick examples
