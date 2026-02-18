@@ -40,11 +40,9 @@ All with very few dependencies and **no extraction step**.
 You can install the development version like this:
 
 ``` r
-# From local source folder
-devtools::install(upgrade = "never")
-
-# Or later — once published on GitHub
-# remotes::install_github("abiyug/zipAuditR")
+# Install from GitHub (development version)
+# install.packages("remotes"), if not already installed
+remotes::install_github("abiyug/zipAuditR")
 ```
 
 ## Quick examples
